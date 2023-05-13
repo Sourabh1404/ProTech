@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<!-- First, we need the javascript CDN for tfjs and the toxicity model -->
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs">
+
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/toxicity">
+
+	</script>
+</head>
+
+<body>
+    <div>
+      <label for="text">Enter some text:</label>
+      <input type="text" id="text">
+    </div>
+    <div>
+      <button id="classify">Classify</button>
+    </div>
+    <div>
+      <p id="output"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+</html>

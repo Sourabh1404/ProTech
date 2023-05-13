@@ -1,0 +1,27 @@
+{
+    "name":"DeTox",
+    "version":"1.0.0",
+    "description":"An extension to check Toxicity in comments",
+    "manifest_version":3,
+    "author":"Sourabh Kumar Gupta",
+    "permissions":["activeTab","declarativeContent"],
+    "host_permissions":["https://127.0.0.1.:5000/*"],
+    
+
+    "action":{
+        "default_popup":"index.html",
+        "default_title":"Toxicity",
+        "defaul_icon":{
+            "16":"images/logo.png",
+            "32":"images/logo.png",
+            "48":"images/logo.png",
+            "128":"images/logo.png"
+        }
+    },
+    "icons":{
+            "16":"images/logo.png",
+            "32":"images/logo.png",
+            "48":"images/logo.png",
+            "128":"images/logo.png"
+    }
+}

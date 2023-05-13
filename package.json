@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@tensorflow-models/toxicity": "^1.0.3",
+    "@tensorflow/tfjs": "^4.5.0"
+  }
+}
